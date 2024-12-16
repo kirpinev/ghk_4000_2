@@ -36,7 +36,7 @@ export const App = () => {
             alt="Карта для ребенка"
             style={{ width: "85%", borderRadius: "16px" }}
           />
-          <div style={{ display: "flex", justifyContent: "space-between" }}>
+          <div style={{ display: "flex", justifyContent: "space-around" }}>
             <div>
               <Typography.Text
                 tag="p"
