@@ -19,7 +19,7 @@ export const App = () => {
     setLoading(true);
 
     Promise.resolve().then(() => {
-      window.gtag("event", "4000_processing_click", {
+      window.gtag("event", "4000_processing_click_var2", {
         variant_name: "ghk_4000_2",
       });
       setLoading(false);
